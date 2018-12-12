@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 #include <process.h>
-
-
 const int LIMIT = 100;
 
 class ARROVER {
@@ -12,9 +10,6 @@ public:
         cout <<endl <<  "n > " << LIMIT << endl;
     }
 };
-
-
-
 
 class safearay    {
 private:

@@ -18,21 +18,15 @@ public:
         cin>> education_palse;
         cout << endl;
     }
-
     friend void operator<<(ofstream &out, Person &p){
         out << p.name << "    " << p.surname <<"    " << p.age <<"    " << p.phone <<"    " << p.education_palse << endl;
     }
 };
 
-
-
 int main()
 {
-
-
     ofstream myfile;
     Person p;
-
     myfile.open ("myfile.txt");
     myfile << p;
     myfile.close();
